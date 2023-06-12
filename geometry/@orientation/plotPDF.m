@@ -17,6 +17,7 @@ function plotPDF(ori,varargin)
 % Options
 %  superposition - plot superposed pole figures
 %  points        - number of points to be plotted
+%  contourf - 
 %  MarkerSize -
 %  MarkerFaceColor -
 %  MarkerEdgeColor -
@@ -29,7 +30,7 @@ function plotPDF(ori,varargin)
 %  upper      - restrict to upper hemisphere
 %  lower      - restrict to lower hemisphere
 %  filled     - fill the marker with current color
-%
+%  colorrange - limits of the color range [min max]
 %
 % See also
 % orientation/plotIPDF S2Grid/plot savefigure
